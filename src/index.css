@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+body {
+  padding-top: 55px;
+}
+.sidebar-fixed {
+  height: 300px; /* Sesuaikan tinggi sesuai kebutuhan */
+  overflow-y: auto;
+  scrollbar-width: none; /* Untuk Firefox */
+}
+
+.sidebar-fixed::-webkit-scrollbar {
+  display: none; /* Untuk Chrome, Safari, dan Edge */
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+.slick-slide {
+  display: flex !important; 
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide > div {
+  width: 100%;
+}
